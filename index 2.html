@@ -8,6 +8,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link href="style.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 
     </head>
     <body>
@@ -39,6 +41,20 @@
                   <br>
                   <br>
 
+                  <script>
+$.get("nav.html", function(data){
+    $("#nav-placeholder").replaceWith(data);
+});
+</script>
+
+<div id="nav-placeholder">
+
+</div>
+
+
+
+
+
                     <br>
                     <p>Instructors</p>
                     <p>Juliette Cezzar<br>
@@ -52,6 +68,10 @@
                     </p>
 
                 </div>
+
+                
+
+
 
  <div class="left-col">
                      <p>Studio

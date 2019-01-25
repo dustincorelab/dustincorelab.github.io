@@ -9,6 +9,8 @@
 
         <link href="style.css" rel="stylesheet">
 
+
+
     </head>
     <body>
 
@@ -39,6 +41,10 @@
                   <br>
                   <br>
 
+
+
+
+
                     <br>
                     <p>Instructors</p>
                     <p>Juliette Cezzar<br>
@@ -52,6 +58,11 @@
                     </p>
 
                 </div>
+
+                
+<?php include("nav.html");?>
+
+
 
  <div class="left-col">
                      <p>Studio
